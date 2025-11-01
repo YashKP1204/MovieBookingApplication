@@ -1,0 +1,21 @@
+{
+  "name": "mbabackend",
+  "version": "1.0.0",
+  "description": "backend for a moviebookingapplication",
+  "homepage": "https://github.com/YashKP1204/MovieBookingApplication#readme",
+  "bugs": {
+    "url": "https://github.com/YashKP1204/MovieBookingApplication/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashKP1204/MovieBookingApplication.git"
+  },
+  "license": "ISC",
+  "author": "Yash Prajapati",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  }
+}
