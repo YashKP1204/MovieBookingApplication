@@ -4,14 +4,15 @@ env.config()
 const express = require('express')
 
 const mongoose = require('mongoose')
-const routes = require('./routes/movie.routes')
+const routes = require('./routes/movie.routes') //movie route
 
-const app = express()
+const app = express() //express app object
 
 const port = process.env.PORT
 
-app.use(express.json())
-app.use(express.urlencoded({extended:true}))
+// configure body parser
+app.use(express.json()) 
+app.use(express.urlencoded({extended:true})) 
 
 routes(app)
 
